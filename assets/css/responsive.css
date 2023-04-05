@@ -1,0 +1,11 @@
+@media (max-width: 991.99px) {
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main, .side {
+        width: 100%;
+    }
+}

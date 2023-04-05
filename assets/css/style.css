@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway',sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.header-title {
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.header-sub-title {
+    font-size: 15px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.header-span {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+/* Content */
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Main */
+.main {
+    width: calc(200% / 3);
+}
+
+.main-card {
+    background-color: #fff;
+    margin: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+}
+
+.main-text {
+    padding: 0 16px;
+}
+
+.main-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.main-sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.sub-title-span {
+    opacity: 0.6;
+}
+
+.main-info {
+    font-size: 15px;
+    margin: 25px 0 15px;
+    line-height: 1.5;
+}
+
+.main-footer {
+    padding: 15px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-btn {
+    padding: 12px 24px;
+    border: solid 1px #ccc;
+    display: inline-block;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-btn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.main-btn-icon {
+    font-size: 12px;
+    margin-left: 4px;
+    opacity: 0.7;
+}
+
+.main-cmt {
+    display: flex;
+    gap: 10px;
+    padding: 12px 24px;
+    align-items: center;
+}
+
+.main-cmt-text {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.main-cmt-num {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 8px;
+}
+
+.main-cmt-num-2 {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 50%;
+}
+
+/* Side */
+.side {
+    width: calc(100% / 3);
+    float: left;
+    padding: 16px;
+}
+
+.side-intro {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 16px;
+}
+
+.side-img {
+    width: 100%;
+}
+
+.side-intro-text {
+    padding: 0 16px;
+}
+
+.side-intro-title {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.side-intro-info {
+    margin: 15px 0;
+    font-size: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+.side-posts {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin: 16px 0;
+}
+
+.side-header {
+    background-color: #f1f1f1;
+    padding: 18px 16px;
+    font-size: 20px;
+    
+}
+
+.side-post-list {
+
+}
+
+.side-post-item {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.side-post-item:hover {
+    background-color: #ccc;
+}
+
+.post-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-title {
+    font-size: 18px;
+}
+
+.post-info {
+    font-size: 15px
+}
+
+.side-tags {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+}
+
+.tags-box {
+    padding: 16px;
+}
+
+.tag-list {
+    list-style-type: none;
+}
+
+.tag {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #f1f1f1;
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+
+.tag-selected {
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 8px;
+}
+
+/* Footer */
+.footer {
+    padding: 32px 16px;
+    background-color: #616161;
+    margin-top: 32px;
+}
+
+.btn {
+    padding: 14px 24px;
+    color: #fff;
+    background-color: #000;
+    font-size: 15px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.prev-btn {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.btn-icon {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.footer-text {
+    margin: 15px 0;
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-link {
+    color: #fff;
+}
